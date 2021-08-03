@@ -1,0 +1,32 @@
+{
+  "name": "v-mware-table-arrays",
+  "version": "1.0.0",
+  "description": "A Grafana plugin to visualize the array object in a Table.",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test --coverage",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "sign": "grafana-toolkit plugin:sign",
+    "start": "yarn watch"
+  },
+  "author": "Dean Mundrawala",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@grafana/data": "latest",
+    "@grafana/toolkit": "latest",
+    "@grafana/ui": "latest",
+    "emotion": "10.0.27",
+    "@grafana/runtime": "next"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@testing-library/react": "^12.0.0",
+    "fast-deep-equal": "^3.1.3",
+    "lodash": "^4.17.21",
+    "material-table": "^1.69.3"
+  }
+}
