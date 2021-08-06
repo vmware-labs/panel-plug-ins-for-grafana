@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
   "type": "panel",
   "name": "Table - Arrays",
-  "id": "vmware-tablearrays-panel",
+  "id": "dineshms-tablearrays-panel",
   "info": {
     "description": "A Grafana plugin to visualize the array object in a Table.",
     "author": {
